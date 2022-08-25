@@ -13,7 +13,7 @@ public final class DiamondBlockSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Diamond Block with Lightning";
+		return "Алмазный блок с молнией";
 	}
 
 	@Override

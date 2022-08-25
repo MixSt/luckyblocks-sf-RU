@@ -13,7 +13,7 @@ public final class AnvilRainSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Anvil Rain";
+		return "Дождь из Наковален";
 	}
 
 	@Override

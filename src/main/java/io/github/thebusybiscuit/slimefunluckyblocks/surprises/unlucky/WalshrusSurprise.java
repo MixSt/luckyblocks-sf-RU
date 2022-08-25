@@ -23,7 +23,7 @@ public final class WalshrusSurprise implements Surprise {
     private final ItemStack sword;
 
     public WalshrusSurprise() {
-        sword = new CustomItemStack(Material.GOLDEN_SWORD, "&e&lLucky Sword");
+        sword = new CustomItemStack(Material.GOLDEN_SWORD, "&e&lМеч Удачи");
         sword.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, 10);
         sword.addUnsafeEnchantment(Enchantment.LOOT_BONUS_MOBS, 10);
         sword.addUnsafeEnchantment(Enchantment.DURABILITY, 10);

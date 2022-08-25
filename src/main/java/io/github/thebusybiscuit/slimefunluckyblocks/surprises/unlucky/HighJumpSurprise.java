@@ -14,12 +14,12 @@ public final class HighJumpSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Up up and away";
+		return "Вверх вверх и вдаль";
 	}
 
 	@Override
 	public void activate(Random random, Player p, Location l) {
-		p.sendTitle("", ChatColor.translateAlternateColorCodes('&', "&bUp up and away!"), 10, 20, 10);
+		p.sendTitle("", ChatColor.translateAlternateColorCodes('&', "&bВверх вверх и вдаль!"), 10, 20, 10);
 		p.setVelocity(new Vector(0, 2.75, 0));
 	}
 

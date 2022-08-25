@@ -13,7 +13,7 @@ public final class WanderingTraderSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Wandering Trader";
+		return "Бродячий Торговец";
 	}
 
 	@Override

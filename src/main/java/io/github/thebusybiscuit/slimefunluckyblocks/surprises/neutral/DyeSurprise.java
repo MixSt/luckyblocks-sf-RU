@@ -15,7 +15,7 @@ public final class DyeSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Dyes";
+		return "Красители";
 	}
 
 	@Override

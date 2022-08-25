@@ -16,7 +16,7 @@ public final class LuckyPotionsSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Lucky Potions";
+		return "Зелья Удачи";
 	}
 
 	@Override

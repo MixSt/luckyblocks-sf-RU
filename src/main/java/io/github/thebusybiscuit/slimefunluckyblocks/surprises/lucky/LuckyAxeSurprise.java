@@ -17,7 +17,7 @@ public final class LuckyAxeSurprise implements Surprise {
 	private final ItemStack axe;
 	
 	public LuckyAxeSurprise() {
-		axe = new CustomItemStack(Material.GOLDEN_AXE, "&e&lLucky Axe");
+		axe = new CustomItemStack(Material.GOLDEN_AXE, "&e&lТопор Удачи");
 		axe.addUnsafeEnchantment(Enchantment.DAMAGE_ALL, 10);
 		axe.addUnsafeEnchantment(Enchantment.DIG_SPEED, 10);
 		axe.addUnsafeEnchantment(Enchantment.LOOT_BONUS_BLOCKS, 10);
@@ -26,7 +26,7 @@ public final class LuckyAxeSurprise implements Surprise {
 	
 	@Override
 	public String getName() {
-		return "Lucky Axe";
+		return "Топор Удачи";
 	}
 
 	@Override
